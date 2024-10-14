@@ -1,9 +1,5 @@
 name: Project - calling workflow
-on:
- push:
-  branches:
-   - master
+on: push
 jobs:
   buildJob:
-   uses: ./.github/workflows/deploy.yml
-   
+    uses: ./.github/workflows/deploy.yml
