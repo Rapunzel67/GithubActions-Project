@@ -4,3 +4,4 @@ jobs:
   buildJob:
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
+    
