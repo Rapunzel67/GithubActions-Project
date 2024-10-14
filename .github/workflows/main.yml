@@ -1,10 +1,9 @@
-name: ttt
+name: Project - calling workflow
 on:
  push
   branches:
    - master
 jobs:
   buildJob:
-   uses: ./.github/workflows/called.yml
-
-        
+   uses: ./.github/workflows/deploy.yml
+   
